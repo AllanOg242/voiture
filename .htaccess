@@ -1,0 +1,8 @@
+RewriteEngine on  
+
+RewriteRule ^.{0}$ index.php
+
+RewriteRule ^gestVoiture$ src/view/voiture.php
+RewriteRule ^gestAccueil$ index.php
+RewriteRule ^gestCont$ src/view/contact.php
+RewriteRule ^gestEntre$ src/view/entreprise.php
